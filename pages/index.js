@@ -12,40 +12,38 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Learn <Link href="/posts/first-post">Next.js!</Link>
+          Acadia <Link href="/posts/first-post">Games!</Link>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          Explore our interactive games create entirely in React
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h3>Tensies &rarr;</h3>
+            <p>Try to get 10 randomly shuffling dice all on the same number!</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h3>Endgame &rarr;</h3>
+            <p>Fight to save the most used software languages in the world.</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>Placeholder &rarr;</h3>
+            <p>Coming Soon!</p>
           </a>
 
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h3>Placeholder &rarr;</h3>
+            <p>Coming Soon!</p>
           </a>
         </div>
       </main>
