@@ -20,15 +20,15 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <Link href="/tensies/page" className={styles.card}>
             <h3>Tensies &rarr;</h3>
             <p>Try to get 10 randomly shuffling dice all on the same number!</p>
-          </a>
+          </Link>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <Link href="/end-game/page" className={styles.card}>
             <h3>Endgame &rarr;</h3>
             <p>Fight to save the most used software languages in the world.</p>
-          </a>
+          </Link>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
