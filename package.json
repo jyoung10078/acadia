@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@next/font": "^14.2.15",
     "next": "^15.2.4",
     "react": "latest",
     "react-dom": "latest"
