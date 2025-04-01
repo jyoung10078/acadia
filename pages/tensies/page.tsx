@@ -9,8 +9,8 @@ export default function Page() {
 
 
     return(
-        <>
-            <main className={styles.tensiesbody}>
+        <body className={styles.bod}>
+            <main className={styles.mainBod}>
                 <div className={styles.specialcard}>
                     <h1 className={styles.tensies_title}>Tenzies</h1>
                     <p className={styles.description}>Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
@@ -18,11 +18,10 @@ export default function Page() {
                         {diceArray.map((die) => <button className={styles.die}>{die}</button>)}
                     </div>
                 </div>
-                <h2 className={styles.return_home}>
-                    <Link href="/">Back to home</Link>
-                </h2>
+                <Link href="/">
+                    <button className={styles.return_home}>Back to home</button>
+                </Link>
             </main>
-        </>
-
+        </body>
     )
 }
