@@ -6,7 +6,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "@next/font": "^14.2.15",
+    "next": "^15.2.4",
     "react": "latest",
     "react-confetti": "^6.4.0",
     "react-dom": "latest"
@@ -18,5 +19,20 @@
     "@types/node": "22.13.10",
     "@types/react": "19.0.12",
     "typescript": "5.8.2"
-  }
+  },
+  "name": "acadia",
+  "version": "1.0.0",
+  "description": "This is a starter template for [Learn Next.js](https://nextjs.org/learn).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyoung10078/acadia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyoung10078/acadia/issues"
+  },
+  "homepage": "https://github.com/jyoung10078/acadia#readme"
 }
