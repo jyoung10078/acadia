@@ -8,6 +8,7 @@
   "dependencies": {
     "next": "latest",
     "react": "latest",
+    "react-confetti": "^6.4.0",
     "react-dom": "latest"
   },
   "engines": {
